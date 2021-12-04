@@ -4,9 +4,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <title>Modal</title>
 </head>
 <body>
     
+    <button id="mainbtn">Modal</button>
+
+    <div class="modal">
+        <p><span>Share Modal</span><span><span>x</span></span></p>
+        <hr size="2" color="gray">
+        <p class="shareTitle">Share this link via</p>
+        <div class="social">
+            <div id="facebook"><i class="fab fa-facebook-f"></i></div>
+            <div id="twitter"><i class="fab fa-twitter"></i></div>
+            <div id="instagram"><i class="fab fa-instagram"></i></div>
+            <div id="whatsapp"><i class="fab fa-whatsapp"></i></div>
+            <div id="telegram"><i class="fab fa-telegram-plane"></i></div>
+        </div>
+        <p class="copyTitle">or Copy link</p>
+        <div class="copyLink">
+            <div><i class="fas fa-link"></i><span>example.com/share-link</span></div>
+            <button>Copy</button>
+        </div>
+    </div>
+    
+
+    <script src="main.js"></script>
 </body>
 </html>

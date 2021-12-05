@@ -9,11 +9,10 @@
     <title>Modal</title>
 </head>
 <body>
-    
-    <button id="mainbtn">Modal</button>
-
+    <div id="darktheme"></div>
+    <button id="mainbtn" onclick="modalFunc()">Modal</button>
     <div class="modal">
-        <p><span>Share Modal</span><span><span>x</span></span></p>
+        <p><span>Share Modal</span><span onclick="closeModal()"><span>x</span></span></p>
         <hr size="2" color="gray">
         <p class="shareTitle">Share this link via</p>
         <div class="social">
@@ -26,7 +25,7 @@
         <p class="copyTitle">or Copy link</p>
         <div class="copyLink">
             <div><i class="fas fa-link"></i><span>example.com/share-link</span></div>
-            <button>Copy</button>
+            <button id="copyBtn" onclick="copyLink()">Copy</button>
         </div>
     </div>
     

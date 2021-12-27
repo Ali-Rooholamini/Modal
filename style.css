@@ -206,3 +206,30 @@ body,html{
 .modal .copyLink button:active{
     background-color: #6526be;
 }
+
+/* media querry */
+@media screen and (max-width: 450px) {
+    .modal{
+        width: 350px;
+    }
+    .modal .copyLink div span{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 350px) {
+    .modal{
+        width: 278px;
+    }
+    .modal .copyLink div i{
+        font-size: 12px;
+        padding: 0 0 0 0;
+    }
+    .modal .copyLink div span{
+        font-size: 12px;
+    }
+    .modal .social div{
+        width: 40px;
+        height: 40px;
+        font-size: 22px;
+    }
+}
